@@ -14,7 +14,16 @@ const Testers = (props) => {
     <div className="testers-container">
       <Helmet>
         <title>Into-Tutoring Website</title>
+        <meta name="description" content="Into-Tutoring is coming soon!" />
         <meta property="og:title" content="Into-Tutoring Website" />
+        <meta
+          property="og:description"
+          content="Into-Tutoring is coming soon!"
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/856c8403-4b45-4785-9b6b-5aeb31809300/b01d56e0-0c0f-4f44-b9d9-5a5fe9ccfdf9?org_if_sml=1&amp;force_format=original"
+        />
       </Helmet>
       <div data-modal="practices" className="testers-modal">
         <div className="testers-practices">
@@ -139,7 +148,9 @@ const Testers = (props) => {
           <div className="testers-left">
             <img
               alt="image"
-              src="/Branding/logo-1500h.png"
+              sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+              src="/Branding/logo-1500h.webp"
+              srcSet="Branding//logo-1500h.webp 1200w, Branding/logo-tablet.webp 800w, Branding/logo-mobile.webp 480w"
               className="testers-logo"
             />
             <nav className="testers-links">
@@ -187,7 +198,9 @@ const Testers = (props) => {
               <div className="testers-container1">
                 <img
                   alt="image"
-                  src="/Branding/logo-1500h.png"
+                  sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                  src="/Branding/logo-1500h.webp"
+                  srcSet="Branding//logo-1500h.webp 1200w, Branding/logo-tablet.webp 800w, Branding/logo-mobile.webp 480w"
                   className="testers-image08"
                 />
                 <div data-thq="thq-close-menu" className="testers-menu-close">
@@ -241,7 +254,9 @@ const Testers = (props) => {
           <div className="testers-image11">
             <img
               alt="image"
-              src="/doctor-image-1500w.png"
+              sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+              src="/doctor-image-1500w.webp"
+              srcSet="/doctor-image-1500w.webp 1200w, /doctor-image-tablet.webp 800w, /doctor-image-mobile.webp 480w"
               className="testers-image12"
             />
           </div>
@@ -313,7 +328,7 @@ const Testers = (props) => {
           <div className="testers-video">
             <video
               src
-              poster="/video-1500w.png"
+              poster="/video-1500w.webp"
               className="testers-video1"
             ></video>
             <div className="testers-play">
@@ -361,7 +376,13 @@ const Testers = (props) => {
               />
             </div>
           </div>
-          <img alt="image" src="/xray-1500w.png" className="testers-image15" />
+          <img
+            alt="image"
+            sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+            src="/xray-1500w.webp"
+            srcSet="/xray-1500w.webp 1200w, /xray-tablet.webp 800w, /xray-mobile.webp 480w"
+            className="testers-image15"
+          />
         </div>
         <div className="testers-section7">
           <div className="testers-content05">
@@ -383,7 +404,13 @@ const Testers = (props) => {
               />
             </div>
           </div>
-          <img alt="image" src="/lab-1500w.png" className="testers-image17" />
+          <img
+            alt="image"
+            sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+            src="/lab-1500w.webp"
+            srcSet="/lab-1500w.webp 1200w, /lab-tablet.webp 800w, /lab-mobile.webp 480w"
+            className="testers-image17"
+          />
         </div>
         <div className="testers-section8">
           <div className="testers-content06">
@@ -402,7 +429,9 @@ const Testers = (props) => {
           </div>
           <img
             alt="image"
-            src="/examination-1500w.png"
+            sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+            src="/examination-1500w.webp"
+            srcSet="/examination-1500w.webp 1200w, /examination-tablet.webp 800w, /examination-mobile.webp 480w"
             className="testers-image18"
           />
         </div>
@@ -715,9 +744,9 @@ const Testers = (props) => {
           </div>
           <div data-teleport="doctors" className="testers-doctors">
             <Doctor></Doctor>
-            <Doctor imageSrc="/Doctors/doctor-2-300w.png"></Doctor>
-            <Doctor imageSrc="/Doctors/doctor-3-300w.png"></Doctor>
-            <Doctor imageSrc="/Doctors/doctor-4-300w.png"></Doctor>
+            <Doctor imageSrc="/Doctors/doctor-2-300w.webp"></Doctor>
+            <Doctor imageSrc="/Doctors/doctor-3-300w.webp"></Doctor>
+            <Doctor imageSrc="/Doctors/doctor-4-300w.webp"></Doctor>
           </div>
         </div>
         <div className="testers-search1">
@@ -744,7 +773,9 @@ const Testers = (props) => {
             <div className="testers-image20">
               <img
                 alt="image"
-                src="/News/news-logo-1500w.png"
+                sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                src="/News/news-logo-1500w.webp"
+                srcSet="News//news-logo-1500w.webp 1200w, News/news-logo-tablet.webp 800w, News/news-logo-mobile.webp 480w"
                 className="testers-image21"
               />
             </div>
@@ -770,7 +801,9 @@ const Testers = (props) => {
             <div className="testers-image23">
               <img
                 alt="image"
-                src="/News/news-1-1500w.png"
+                sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                src="/News/news-1-1500w.webp"
+                srcSet="News//news-1-1500w.webp 1200w, News/news-1-tablet.webp 800w, News/news-1-mobile.webp 480w"
                 className="testers-image24"
               />
             </div>
@@ -796,7 +829,9 @@ const Testers = (props) => {
             <div className="testers-image26">
               <img
                 alt="image"
-                src="/News/news-2-1500w.png"
+                sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+                src="/News/news-2-1500w.webp"
+                srcSet="News//news-2-1500w.webp 1200w, News/news-2-tablet.webp 800w, News/news-2-mobile.webp 480w"
                 className="testers-image27"
               />
             </div>
@@ -823,7 +858,13 @@ const Testers = (props) => {
       </section>
       <div className="testers-download">
         <div className="testers-main1">
-          <img alt="image" src="/phone-1500w.png" className="testers-image29" />
+          <img
+            alt="image"
+            sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
+            src="/phone-1500w.webp"
+            srcSet="/phone-1500w.webp 1200w, /phone-tablet.webp 800w, /phone-mobile.webp 480w"
+            className="testers-image29"
+          />
           <div className="testers-content12">
             <h2 className="testers-text91">
               Download our mobile app and book your next appointment

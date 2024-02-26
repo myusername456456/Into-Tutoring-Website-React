@@ -18,7 +18,7 @@ const Doctor = (props) => {
 
 Doctor.defaultProps = {
   heading: 'Dr. Audrey Smith',
-  imageSrc: '/Doctors/doctor-1-300w.png',
+  imageSrc: '/Doctors/doctor-1-300w.webp',
   imageAlt: 'image',
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
 }
